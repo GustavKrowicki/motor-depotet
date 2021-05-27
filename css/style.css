@@ -1,0 +1,224 @@
+    body {
+      color: #333333
+    }
+    
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: .25fr .6fr 0.25fr .75fr;
+      gap: 5px 10px;
+      grid-template-areas:
+        "bigpicture bigpicture"
+        "newcar usedcar"
+        "tp tp"
+        "booking booking";
+    }
+    .bigpicture { grid-area: bigpicture; }
+    video {
+      width: 100%;
+      height: auto;
+    }
+
+    .newcar { grid-area: newcar;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      margin-left: 5px; }
+
+    .new-car-pic{
+      width: 100%;
+      height: auto;
+      display: flex;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+  
+    .new-car-header, .used-car-header {
+      font-size: 1.2rem;
+      padding-left: 3px;
+      text-align: center;}
+  
+    .new-car-subheader, .used-car-subheader {
+      font-size: 1rem;
+      padding-left: 3px;
+      text-align: center;
+    }
+
+    .used-car-pic {
+      width: 100%;
+      height: auto;
+      display: flex;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+
+    .car-button {
+      background-color:#264160;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 0 auto; 
+      display: block;
+      box-shadow: none;
+      border: none;
+      margin-bottom: 10px;
+    }
+
+    .usedcar { grid-area: usedcar;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+    margin-right: 5px;}
+    
+    .tp { grid-area: tp;
+    margin-top: 15px;}
+    .trustpilot-widget {
+      height: 75%;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      }
+    .booking { grid-area: booking;
+    margin-top: 0; }
+    
+      
+ 
+    
+
+  /* trustpilot */
+
+  .background {
+    background-color: #264160;
+    padding: 100%;
+  }
+
+  /* booking form */
+  .textarea{
+    border-radius: 10px;
+    height: 100px;
+    width: 50%;
+    min-width: 200px;
+  }
+  
+  form {
+    display: block;
+    text-align: center;
+    margin-top: -25px;
+  }
+
+  .form-header {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  form a {
+    color: #333333;
+    display: inline;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  
+ 
+  input{
+    margin: auto;
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    transition: all 1s ease;
+    overflow: hidden;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+    min-width: 200px;
+    padding: 7.5px;
+    border: none;
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  button{
+    margin: auto;
+    padding: 0px;
+    display: block;
+    opacity: 1;
+    display: block;
+    max-width: 50%;
+    border-radius: 10px;
+    transition: all 1s ease;
+    overflow: hidden;
+  }
+  
+  
+
+  .thanks-button {
+    background-color:#264160;
+    color: white;
+    border-radius: 10px;
+    padding: 7.5px;
+    margin: 0 auto; 
+    display: block;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width:30vw;
+    margin-bottom: 50px;
+  }
+
+
+
+  /* media query */
+  @media (min-width: 48rem) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr .65fr 0.5fr;
+      gap: 5px 10px;
+      grid-template-areas:
+        "bigpicture bigpicture bigpicture"
+        "newcar usedcar booking"
+        "tp tp booking";
+      width: 75%;
+      margin: 0 auto;
+    }
+    .bigpicture { grid-area: bigpicture;
+    margin-bottom: 0px; }
+    .newcar { grid-area: newcar;
+    margin-left: 0; }
+  
+    .usedcar { grid-area: usedcar; }
+    .booking { grid-area: booking;
+    margin-top: 5%;
+  margin-bottom: 5%; }
+    #form {
+      border-radius: 10px;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+    }
+    .form-header {
+      margin-top: 20px;
+    }
+
+    .thanks-button {
+      width: 20%;
+    }
+
+    .tp { grid-area: tp; }
+  }
+
+
+  /* grid */
+
+
+  

@@ -1,0 +1,361 @@
+.body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-subheader {
+    text-align: center;
+}
+
+.section-p{
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.section-image {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.carlogo {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.new-car {
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+
+/* flexbox animationer */
+
+.opel-flexbox {
+    display: none;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .opel-flexbox-desk { 
+    display: none;
+  }
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .mitsubishi-flexbox {
+    display: none;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .mitsubishi-flexbox-desk {
+    display: none;
+  }
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  .suzuki-flexbox {
+    display: none;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .suzuki-flexbox-desk {
+    display: none;
+  }
+  
+  @keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
+
+.new-car-pic {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.new-car-header {
+    text-align: center;
+}
+
+.new-car-price {
+    text-align: center;
+}
+
+.car-button {
+    background-color:#264160;
+    color: white;
+    border-radius: 5px;
+    padding: 7.5px;
+    margin: 0 auto; 
+    display: block;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .car-button:hover {
+    cursor: pointer;
+  }
+
+/* media query */
+
+@media (min-width: 48rem){
+ 
+  .opel-flexbox-desk {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 75%;
+    margin: 0 auto;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .mitsubishi-flexbox-desk {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 75%;
+    margin: 0 auto;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .suzuki-flexbox-desk {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 75%;
+    margin: 0 auto;
+    animation: fadeIn ease 0.75s;
+    -webkit-animation: fadeIn ease 0.75s;
+    -moz-animation: fadeIn ease 0.75s;
+    -o-animation: fadeIn ease 0.75s;
+    -ms-animation: fadeIn ease 0.75s;
+  }
+
+  .new-car-desk {
+    width: 15%;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.10);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+ 
+
+.carlogo {
+  width: 15%;
+  margin-top: 75px;
+  
+}
+
+.carlogo:hover {
+  cursor: pointer;
+}
+
+.section-image {
+  width:30%;
+  height: auto;
+}
+
+.section-image-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-header {
+  padding-top: 50px;
+  margin-top: 0;
+}
+
+.section-p{
+  margin: 0 auto;
+  text-align: left;
+  width: 35%;
+  line-height: 1.5rem;
+  align-self: center;
+}
+
+.section-subheader {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.section-flexbox {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+}

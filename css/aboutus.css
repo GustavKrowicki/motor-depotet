@@ -1,0 +1,53 @@
+.outer-flexbox {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-inner-flexbox {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.info-image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-p {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+@media (min-width: 48rem) {
+
+    .outer-flexbox {
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .info-inner-flexbox {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .info-inner-flexbox:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .info-image {
+        width: 40%;
+        height: auto;
+    }
+
+    .info-p {
+        width: 40%;
+        margin: 0 auto;
+        align-self: center;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+}

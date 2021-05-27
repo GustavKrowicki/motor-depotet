@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/newcars.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <title>Nye Biler | Motor Depotet A/S</title>
+    <script src="js/newcar.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- HEADER-->
+   <header class="header">
+    <a href=index.html><img src="img/logo.png" alt="motor-depotets nye logo" class="logo"></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn"/>
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+    <li><a href="newcars.html" class="active">Nye Biler</a></li>
+    <li><a href="usedcars.html">Brugte Biler</a></li>
+    <li><a href="businesscars.html">Erhversbiler</a></li>
+    <li><a href="værksted.html">Værksted</a></li>
+    <li><a href="aboutus.html">Om Os</a></li>
+    </ul>
+   <div class="header-image-section">
+     <img src="img/opel-header.png" alt="opel logo" class="header-image">
+     <img src="img/mitsubishi-header.png" alt="opel logo" class="header-image">
+     <img src="img/suzuki-header.png" alt="opel logo" class="header-image">
+   </div>
+
+</header>
+
+
+<div class="body">
+<h1 class="section-header">Nye Biler</h1>
+<div class="section-image-flexbox">
+<p class="section-p">Hos Motor-Depotet har vi beskæftiget os med salg af nye og brugte biler i gennem 70 år.<br><br>
+  Vores lange erfaring og ekspertise gør, at du trygt kan søge rådgivning og vejledning hos os, når du er på udkig efter din nye bil.<br><br>
+  Vores salgspersonale, Thomas og Jan, har guidet flere end 200 tilfredse kunder hen mod den helt rigtige bil og de kan med garanti også hjælpe dig.<br><br>
+  Hvis du ligger inde med spørgsmål, kan du altid kontakte vores salgsafdeling på <a href="tel:+4733378901" class="tel" style="color:#333333;">+45 41 88 32 00</a>.
+</p>
+<img src="img/carsalesman.jpg" alt="billede af vores kompetente sælger" class="section-image">
+</div>
+<h2 class="section-subheader">Klik på det bilmærke du ønsker at få fremvist</h2>
+<div class="section-flexbox">
+  <!-- OPEL FLEXBOX-->
+  <img src="img/opel-logo.png" alt="opel logo" class="carlogo" onclick="opelFunction();">
+    <div class="opel-flexbox">
+    <div class="new-car">
+        <img src="img/astra.png" alt="Opel Astra 2021" class="new-car-pic">
+        <h3 class="new-car-header">Opel Astra</h3>
+        <h4 class="new-car-price">Fra 199.990kr</h4>
+            <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/astra/')" class="car-button">Læs mere</button>
+    </div>
+    <div class="new-car">
+        <img src="img/corsa.png" alt="Opel Corsa 2021" class="new-car-pic">
+        <h3 class="new-car-header">Opel Corsa</h3>
+        <h4 class="new-car-price">Fra 149.990kr</h4>
+            <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/corsa/')" class="car-button">Læs mere</button>
+    </div>
+    <div class="new-car">
+        <img src="img/crossland.png" alt="Opel Crossland 2021" class="new-car-pic">
+        <h3 class="new-car-header">Opel Crossland X</h3>
+        <h4 class="new-car-price">Fra 199.990kr</h4>
+            <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/crossland/ny-crossland/overblik/')" class="car-button">Læs mere</button>
+    </div>
+    <div class="new-car">
+        <img src="img/grandland.png" alt="Opel Grandland 2021" class="new-car-pic">
+        <h3 class="new-car-header">Opel Grandland X</h3>
+        <h4 class="new-car-price">Fra 324.990</h4>
+            <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/grandland-x/grandland-x/overblik/')" class="car-button">Læs mere</button>
+    </div>
+    <div class="new-car">
+        <img src="img/insignia.png" alt="Opel Crossland 2021" class="new-car-pic">
+        <h3 class="new-car-header">Opel Insignia</h3>
+        <h4 class="new-car-price">Fra 359.990kr</h4>
+            <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/insignia/ny-insignia-stationcar/overblik/')" class="car-button">Læs mere</button>
+    </div>
+
+    </div>
+
+    <!-- MITSUBISHI FLEXBOX-->
+    <img src="img/mitsubishi-logo.png" alt="mitsubishi logo" class="carlogo" onclick="mitsubishiFunction()">
+    <div class="mitsubishi-flexbox">
+    <div class="new-car">
+      <img src="img/spacestar.png" alt="Mitsubishi Space Star 2021" class="new-car-pic">
+      <h3 class="new-car-header">Mitsubishi Space Star </h3>
+      <h4 class="new-car-price">Fra 99.990kr</h4>
+          <button onClick="parent.open('https://www.mitsubishi.dk/space-star/')" class="car-button">Læs mere</button>
+  </div>
+
+  <div class="new-car">
+    <img src="img/asx.png" alt="Mitsubishi ASX 2021" class="new-car-pic">
+    <h3 class="new-car-header">Mitsubishi ASX </h3>
+    <h4 class="new-car-price">Fra 199.900kr</h4>
+        <button onClick="parent.open('https://www.mitsubishi.dk/asx/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car">
+  <img src="img/outlander.png" alt="Mitsubishi Outlander 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi Outlander PHEV </h3>
+  <h4 class="new-car-price">Fra 384.639kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/outlander/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car">
+  <img src="img/pajero.png" alt="Mitsubishi Pajero 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi Pajero </h3>
+  <h4 class="new-car-price">Fra 384.639kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/outlander/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car">
+  <img src="img/l200.png" alt="Mitsubishi L200 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi L200</h3>
+  <h4 class="new-car-price">Fra 234.900kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/l200/')" class="car-button">Læs mere</button>
+</div>
+
+
+
+  </div>
+    <img src="img/suzuki-logo.png" alt="suzuki logo" class="carlogo" onclick="suzukiFunction()">
+
+    <div class="suzuki-flexbox">
+      <div class="new-car">
+        <img src="img/swift.png" alt="Suzuki Swift 2021" class="new-car-pic">
+        <h3 class="new-car-header">Suzuki Swift </h3>
+        <h4 class="new-car-price">Fra 139.990kr</h4>
+            <button onClick="parent.open('https://suzuki.dk/modeller/swift')" class="car-button">Læs mere</button>
+    </div>
+  
+    <div class="new-car">
+      <img src="img/vitara.png" alt="Suzuki Vitara 2021" class="new-car-pic">
+      <h3 class="new-car-header">Suzuki Vitara</h3>
+      <h4 class="new-car-price">Fra 219.990kr</h4>
+          <button onClick="parent.open('https://suzuki.dk/modeller/vitara')" class="car-button">Læs mere</button>
+  </div>
+  
+  <div class="new-car">
+    <img src="img/ignis.png" alt="Suzuki Ignis 2021" class="new-car-pic">
+    <h3 class="new-car-header">Suzuki Ignis </h3>
+    <h4 class="new-car-price">Fra 136.990kr</h4>
+        <button onClick="parent.open('https://suzuki.dk/modeller/vitara')" class="car-button">Læs mere</button>
+  </div>
+  
+  <div class="new-car">
+    <img src="img/s-cross.png" alt="Suzuki S-cross 2021" class="new-car-pic">
+    <h3 class="new-car-header">Suzuki S-Cross </h3>
+    <h4 class="new-car-price">Fra 224.990kr</h4>
+        <button onClick="parent.open('https://suzuki.dk/modeller/s-cross')" class="car-button">Læs mere</button>
+  </div>
+  
+  <div class="new-car">
+    <img src="img/swace.png" alt="Suzuki Swace 2021" class="new-car-pic">
+    <h3 class="new-car-header">Suzuki Swace</h3>
+    <h4 class="new-car-price">Fra 309.990</h4>
+        <button onClick="parent.open('https://suzuki.dk/modeller/swace')" class="car-button">Læs mere</button>
+  </div>
+    </div></div>
+
+    <!-- OPEL FLEXBOX DESKTOP-->
+    <div class="opel-flexbox-desk">
+      <div class="new-car-desk">
+          <img src="img/astra.png" alt="Opel Astra 2021" class="new-car-pic">
+          <h3 class="new-car-header">Opel Astra</h3>
+          <h4 class="new-car-price">Fra 199.990kr</h4>
+              <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/astra/')" class="car-button">Læs mere</button>
+      </div>
+      <div class="new-car-desk">
+          <img src="img/corsa.png" alt="Opel Corsa 2021" class="new-car-pic">
+          <h3 class="new-car-header">Opel Corsa</h3>
+          <h4 class="new-car-price">Fra 149.990kr</h4>
+              <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/corsa/')" class="car-button">Læs mere</button>
+      </div>
+      <div class="new-car-desk">
+          <img src="img/crossland.png" alt="Opel Crossland 2021" class="new-car-pic">
+          <h3 class="new-car-header">Opel Crossland X</h3>
+          <h4 class="new-car-price">Fra 199.990kr</h4>
+              <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/crossland/ny-crossland/overblik/')" class="car-button">Læs mere</button>
+      </div>
+      <div class="new-car-desk">
+          <img src="img/grandland.png" alt="Opel Grandland 2021" class="new-car-pic">
+          <h3 class="new-car-header">Opel Grandland X</h3>
+          <h4 class="new-car-price">Fra 324.990</h4>
+              <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/grandland-x/grandland-x/overblik/')" class="car-button">Læs mere</button>
+      </div>
+      <div class="new-car-desk">
+          <img src="img/insignia.png" alt="Opel Crossland 2021" class="new-car-pic">
+          <h3 class="new-car-header">Opel Insignia</h3>
+          <h4 class="new-car-price">Fra 359.990kr</h4>
+              <button onClick="parent.open('https://motor-depotet.opel.dk/viby-j/personbiler/insignia/ny-insignia-stationcar/overblik/')" class="car-button">Læs mere</button>
+      </div>
+  
+      </div>
+
+  <!-- MITSUBISHI DESKTOP FLEXBOX-->
+  <div class="mitsubishi-flexbox-desk">
+    <div class="new-car-desk">
+      <img src="img/spacestar.png" alt="Mitsubishi Space Star 2021" class="new-car-pic">
+      <h3 class="new-car-header">Mitsubishi Space Star </h3>
+      <h4 class="new-car-price">Fra 99.990kr</h4>
+          <button onClick="parent.open('https://www.mitsubishi.dk/space-star/')" class="car-button">Læs mere</button>
+  </div>
+
+  <div class="new-car-desk">
+    <img src="img/asx.png" alt="Mitsubishi ASX 2021" class="new-car-pic">
+    <h3 class="new-car-header">Mitsubishi ASX </h3>
+    <h4 class="new-car-price">Fra 199.900kr</h4>
+        <button onClick="parent.open('https://www.mitsubishi.dk/asx/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+  <img src="img/outlander.png" alt="Mitsubishi Outlander 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi Outlander PHEV </h3>
+  <h4 class="new-car-price">Fra 384.639kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/outlander/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+  <img src="img/pajero.png" alt="Mitsubishi Pajero 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi Pajero </h3>
+  <h4 class="new-car-price">Fra 384.639kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/outlander/')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+  <img src="img/l200.png" alt="Mitsubishi L200 2021" class="new-car-pic">
+  <h3 class="new-car-header">Mitsubishi L200</h3>
+  <h4 class="new-car-price">Fra 234.900kr</h4>
+      <button onClick="parent.open('https://www.mitsubishi.dk/l200/')" class="car-button">Læs mere</button>
+</div>
+ </div>
+
+ <!-- SUZUKI DESKTOP-->
+ <div class="suzuki-flexbox-desk">
+  <div class="new-car-desk">
+    <img src="img/swift.png" alt="Suzuki Swift 2021" class="new-car-pic">
+    <h3 class="new-car-header">Suzuki Swift </h3>
+    <h4 class="new-car-price">Fra 139.990kr</h4>
+        <button onClick="parent.open('https://suzuki.dk/modeller/swift')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+  <img src="img/vitara.png" alt="Suzuki Vitara 2021" class="new-car-pic">
+  <h3 class="new-car-header">Suzuki Vitara</h3>
+  <h4 class="new-car-price">Fra 219.990kr</h4>
+      <button onClick="parent.open('https://suzuki.dk/modeller/vitara')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+<img src="img/ignis.png" alt="Suzuki Ignis 2021" class="new-car-pic">
+<h3 class="new-car-header">Suzuki Ignis </h3>
+<h4 class="new-car-price">Fra 136.990kr</h4>
+    <button onClick="parent.open('https://suzuki.dk/modeller/vitara')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+<img src="img/s-cross.png" alt="Suzuki S-cross 2021" class="new-car-pic">
+<h3 class="new-car-header">Suzuki S-Cross </h3>
+<h4 class="new-car-price">Fra 224.990kr</h4>
+    <button onClick="parent.open('https://suzuki.dk/modeller/s-cross')" class="car-button">Læs mere</button>
+</div>
+
+<div class="new-car-desk">
+<img src="img/swace.png" alt="Suzuki Swace 2021" class="new-car-pic">
+<h3 class="new-car-header">Suzuki Swace</h3>
+<h4 class="new-car-price">Fra 309.990</h4>
+    <button onClick="parent.open('https://suzuki.dk/modeller/swace')" class="car-button">Læs mere</button>
+</div>
+</div>
+    
+
+</div>
+    
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="footer-flexbox">
+      <div class="inner-flexbox">
+      <h3 class="footer-header">Kontakt vores afdelinger</h3>
+      <table class="table">
+      <tr>
+        <td class="days">Hovednummer</td>
+        <td class="hours"><a href="tel:+4733378901" class="tel">+45 86 28 24 00</a></td>
+    </tr>
+    
+    <tr>
+      <td class="days">Salgsafdeling</td>
+      <td class="hours"><a href="tel:+4733378901" class="tel">+45 41 88 32 00</a></td>
+    </tr>
+    
+    <tr>
+    <td class="days">Værksted</td>
+    <td class="hours"><a href="tel:+4733378901" class="tel">+45 41 88 32 30</a></td>
+    </tr>
+    
+    </table>
+    </div>
+    <div class="inner-flexbox">
+      <address>
+        Motor Depotet A/S<br>
+        Hasselager Allé 1, 8260, Viby J<br>
+        <a href="mailto:info@motor-depotet.dk">info@motor-depotet.dk</a><br>
+        CVR 10945445<br>
+        <a href="https://www.facebook.com/motordepotetviby">Synes godt om</a>
+      </address>
+    </div>
+    </div>  
+    <div class="inner-flexbox">
+      <h3 class="footer-header">Åbningstider</h3>
+    <table class="table">
+      <tfoot>
+        <tr>
+          <td class="theader">Salgsafdeling</td>
+        </tr>
+          <tr>
+              <td class="days">Mandag-Fredag</td>
+              <td class="hours">8.30 - 17.30</td>
+          </tr>
+          <tr>
+            <td class="days">Lørdag</td>
+            <td class="hours">Lukket</td>
+        </tr>
+        <tr>
+          <td class="days">Søndag</td>
+          <td class="hours">11.00-16.00</td>
+      </tr>
+      <tr>
+    
+        <td class="theader">Værksted</td>
+      </tr>
+        <tr>
+            <td class="days">Mandag-Tirsdag</td>
+            <td class="hours">7.30 - 16.00</td>
+        </tr>
+        <tr>
+          <td class="days">Onsdag-Fredag</td>
+          <td class="hours">7.30-15.00</td>
+      </tr>
+      <tr>
+        <td class="days">Lørdag-Søndag</td>
+        <td class="hours">Lukket</td>
+    </tr></table></div>
+    </footer>
+    </body>
+    </html>
